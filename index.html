@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
-  <body class="bg-gradient-to-r from-blue-light to-blue-dark">
+  <body
+    class="
+      h-screen
+      bg-fixed bg-gradient-to-tr bg-center bg-no-repeat
+      from-puzzle-red
+      via-puzzle-orange
+      to-puzzle-oLight
+    "
+  >
     <div id="page">
-      <div class="w-screen h-32 md:h-44 lg:h-56 bg-gray-200" id="header">
+      <div class="w-screen h-32 md:h-44 lg:h-60 bg-gray-200" id="header">
         <img
-          src="./img/IAlogo.png"
+          src="./img/24hp.png"
           alt=""
-          class="p-4 w-40 md:p-6 md:w-72 lg:w-80 lg:p-8"
+          class="p-4 w-64 md:p-6 md:w-96 lg:w-1/2"
         />
       </div>
       <div class="" id="content">
@@ -35,14 +43,13 @@
               border
               rounded
               text-center
-              mb-6
+              mb-2
               md:
               mb-10
               w-2/3
               lg:w-1/4
               py-2
               px-3
-              text-blue-dark
               leading-tight
               focus:outline-none focus:shadow-outline
             "
@@ -64,7 +71,7 @@
           <div class="w-screen mt-10 flex justify-evenly">
             <div
               class="
-                mb-6
+                mb-2
                 text-lg
                 border-solid border-2 border-white
                 sm:p-10
@@ -81,7 +88,7 @@
             </div>
             <div
               class="
-                mb-6
+                mb-2
                 text-lg
                 border-solid border-2 border-white
                 sm:p-10
@@ -110,9 +117,6 @@
             <p id="texte"></p>
           </div>
         </div>
-      </div>
-      <div id="footer" class="">
-        <p></p>
       </div>
     </div>
     <script src="./script.js"></script>

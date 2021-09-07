@@ -1,13 +1,15 @@
 module.exports = {
-  purge:['./*.html'],
+  purge: [],
   theme: {
     extend: {
-    colors: {
-      blue: {
-          light: '#008daa',
-          dark: '#004f59',
-      }
-    }
-}
-  }
-}
+      colors: {
+        puzzle: {
+          red: "#cc001f",
+          orange: "#EFB276",
+          oLight: "#EDAE70",
+          black: "#282425",
+        },
+      },
+    },
+  },
+};

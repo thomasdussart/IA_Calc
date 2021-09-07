@@ -12,17 +12,17 @@ document.getElementById("calculate").addEventListener("click", () => {
   let total = (montant - deductible).toFixed(2);
 
   document.getElementById("pay").innerHTML =
-    "<span class='text-blue-dark'>" +
+    "<span class='text-puzzle-red'>" +
     (montant - deductible).toFixed(2) +
     "€</span>";
   document.getElementById("refund").innerHTML =
-    "<span class='text-blue-dark'>" + deductible.toFixed(2) + "€</span>";
+    "<span class='text-puzzle-red'>" + deductible.toFixed(2) + "€</span>";
   document.getElementById("texte").innerHTML =
-    "Pour un don de <span class='text-blue-dark'>" +
+    "Pour un don de <span class='text-puzzle-red'>" +
     montant +
-    "€</span>, vous payez <span class='text-blue-dark'>" +
+    "€</span>, vous payez <span class='text-puzzle-red'>" +
     total +
-    "€</span> et vous retouchez <span class='text-blue-dark'>" +
+    "€</span> et vous retouchez <span class='text-puzzle-red'>" +
     deductible.toFixed(2) +
     "€</span>";
 
