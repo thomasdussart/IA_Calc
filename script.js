@@ -30,6 +30,6 @@ document.getElementById("calculate").addEventListener("click", () => {
     .getElementById("texte")
     .setAttribute(
       "class",
-      "border-2 border-solid rounded-2xl w-2/3 p-2 text-center bg-gray-300"
+      "mb-10 h-auto border-2 border-solid rounded-2xl w-2/3 p-2 text-center bg-gray-300"
     );
 });
